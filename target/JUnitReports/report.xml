@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.867">
+    <testcase classname="Check and Click Button in Flip Webpage" name="Check and Click Karir Button" time="19.465">
+        <system-out><![CDATA[Given User is on flip homepage..............................................passed
+When User verify karir button...............................................passed
+And User click karir button.................................................passed
+Then User is on karir page..................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

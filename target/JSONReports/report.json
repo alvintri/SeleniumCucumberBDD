@@ -1,0 +1,89 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-24T01:22:19.526Z",
+        "line": 12,
+        "name": "Check and Click Karir Button",
+        "description": "",
+        "id": "check-and-click-button-in-flip-webpage;check-and-click-karir-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13586930100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on flip homepage",
+            "match": {
+              "location": "StepDefinitions.FlipTest.flip_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97040100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User verify karir button",
+            "match": {
+              "location": "StepDefinitions.FlipTest.verify_karir_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 235858800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click karir button",
+            "match": {
+              "location": "StepDefinitions.FlipTest.click_karir_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5374798100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is on karir page",
+            "match": {
+              "location": "StepDefinitions.FlipTest.karir_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Test2"
+          }
+        ]
+      }
+    ],
+    "name": "Check and Click Button in Flip Webpage",
+    "description": "",
+    "id": "check-and-click-button-in-flip-webpage",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/FlipTest.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
